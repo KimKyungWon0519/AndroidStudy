@@ -60,6 +60,7 @@
         android:textColor="@color/textBlue"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:id="@+id/tvSelectedDate"
         />
 
     <TextView
