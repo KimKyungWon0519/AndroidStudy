@@ -9,12 +9,13 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@color/light_grey"
         android:gravity="end|bottom"
         android:padding="10dp"
-        android:text="124123"
+        android:text="@string/calc_text"
         android:textSize="48sp" />
 
     <LinearLayout
@@ -170,7 +171,7 @@
             android:layout_height="match_parent"
             android:layout_margin="2dp"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onClear"
             android:text="@string/clr" />
 
         <Button
