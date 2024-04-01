@@ -39,13 +39,13 @@ fun UnitConverter() {
         OutlinedTextField(value = "", onValueChange = {})
         Row {
         }
+        Text(text = "Result:")
     }
 }
 
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
-    UnitConverterTheme {
-    }
+fun UnitConverterPreview() {
+    UnitConverter()
 }
